@@ -1,0 +1,127 @@
+:root {
+  --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+  --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+  --Grayish-Blue: hsl(212, 23%, 69%);
+  --Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 13px;
+}
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 2rem;
+  background-color: var(--Light-Grayish-Blue);
+  color: var(--Desaturated-Dark-Blue);
+  font-family: "League Spartan", serif;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  color: var(--Very-Dark-Grayish-Blue);
+  line-height: 1;
+  font-size: 2rem;
+  font-weight: 500;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.name {
+  color: var(--Very-Dark-Grayish-Blue);
+  font-weight: 800;
+}
+.main-container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+}
+.text {
+  padding: 2rem 2rem 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.img-container {
+  border-radius: 1rem 1rem 0 0;
+  overflow: hidden;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.drawers-img {
+  width: 100%;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 6rem;
+}
+.profile-picture {
+  width: 40px;
+  border-radius: 50%;
+}
+.profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.share-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: var(--Light-Grayish-Blue);
+  border-radius: 50%;
+  /* align-self: self-end; */
+}
+
+.share-component {
+  background-color: var(--Very-Dark-Grayish-Blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 6rem;
+  border-radius: 0 0 1rem 1rem;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.icons span {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1rem;
+}
+.hidden {
+  display: none;
+}
+.w {
+  color: white;
+}
