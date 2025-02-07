@@ -1,7 +1,7 @@
 @media (min-width: 1024px) {
   .main-container {
     flex-direction: row;
-    width: 50%;
+    width: 55%;
   }
   .drawers-img {
     height: 100%;
