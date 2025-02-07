@@ -1,4 +1,4 @@
-@media (min-width: 380px) {
+@media (min-width: 1024px) {
   .main-container {
     flex-direction: row;
     width: 50%;
@@ -29,5 +29,10 @@
   }
   .share-component .share-icon {
     display: none;
+  }
+}
+@media (max-width: 1100px) and (min-width: 530px) {
+  body {
+    padding: 6rem;
   }
 }
